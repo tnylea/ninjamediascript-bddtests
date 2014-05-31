@@ -4,8 +4,8 @@ Ninja Media Script BDD Tests
 Add These Aliases:
 
 ```
-alias selenium_start=java -jar selenium-server-standalone-2.39.0.jar
-alias nms_tests=php vendor/bin/codecept run
+alias selenium_start="java -jar selenium-server-standalone-2.39.0.jar"
+alias nms_tests="php vendor/bin/codecept run"
 ```
 
 Then run these commands (in the current directory)
