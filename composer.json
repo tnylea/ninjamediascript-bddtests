@@ -1,0 +1,6 @@
+{
+    "require": {
+        "codeception/codeception": "*",
+        "behat/mink": "1.4@stable"
+    }
+}
