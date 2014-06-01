@@ -15,11 +15,15 @@ $I->see('success');
 $I->reloadPage();
 
 $I->click('.user-menu-desktop');
-//$I->waitForElementVisible('.user-menu-desktop', 30);
-//$I->wait(2000);
+
 $I->click('.admin_link_desktop');
 
-//$I->see('Admin Functionality');
+$I->see('Admin Functionality');
+
+$I->seeElement('//.fa-picture-o');
+
+$I->click('[data-section="comments"]');
+
 
 NinjaHelperPage::afterAllTests($I);
 ?>
