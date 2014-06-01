@@ -20,9 +20,25 @@ $I->click('.admin_link_desktop');
 
 $I->see('Admin Functionality');
 
-$I->seeElement('//.fa-picture-o');
+$I->seeElement('.fa-picture-o');
 
 $I->click('[data-section="comments"]');
+$I->seeElement('.fa-comments');
+
+$I->click('[data-section="users"]');
+$I->seeElement('.fa-user-icon');
+
+$I->click('[data-section="categories"]');
+$I->seeElement('.fa-list');
+
+$I->click('[data-section="pages"]');
+$I->seeElement('.fa-file');
+
+$I->click('[data-section="settings"]');
+$I->seeElement('.fa-cog');
+
+$I->click('[data-section="custom_code"]');
+$I->seeElement('.fa-code');
 
 
 NinjaHelperPage::afterAllTests($I);
