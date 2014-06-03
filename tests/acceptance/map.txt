@@ -1,0 +1,34 @@
+Acceptance Test Mapping:
+
+1. Install Functionality (done)
+
+2. Admin Functionality (done)
+
+3. User Functionality
+	a. Signup (done)
+	b. Signup duplicate (done)
+	c. Login & Logout
+	d. Edit user profile
+	e. User cannot login if they are inactive
+
+4. Media Functionality
+	a. Add (partially done)
+	b. Edit
+	c. Delete
+	d. Like Media from Home Page, Single Page, User Profile Page
+
+5. Add, Edit, Delete, and Vote on Comments
+
+6. Categories Functionality
+	a. Add, Edit, Delete Categories
+	b. Add media to category & test that media has been added to new category
+
+7. Pages Functionality
+	a. Add, Editing, and Deleting Pages
+	b. Viewing the new page
+
+30. Viewing Functionality
+	a. View Home
+	b. View all Popular (week, month, year), categories, tags, random, and pages
+	c. Test & View Search
+	d. View User Profile & Likes
