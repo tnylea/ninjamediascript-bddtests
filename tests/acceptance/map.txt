@@ -5,11 +5,10 @@ Acceptance Test Mapping:
 2. Admin Functionality (done)
 
 3. User Functionality
-	a. Signup (done)
+	a. Signup, Login & Logout (done)
 	b. Signup duplicate (done)
-	c. Login & Logout
-	d. Edit user profile
-	e. User cannot login if they are inactive
+	c. Edit user profile
+	d. User cannot login if they are inactive
 
 4. Media Functionality
 	a. Add (partially done)
