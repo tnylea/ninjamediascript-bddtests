@@ -9,7 +9,7 @@ $I->fillField('#email','admin@admin.com');
 $I->fillField('#password','password');
 $I->fillField('#password_confirmation','password');
 $I->click('.form-signin button');
-$I->see('error');
+$I->see('sign up');
 
 NinjaHelperPage::afterAllTests($I);
 ?>

@@ -10,7 +10,6 @@ $I->fillField('#email','johndoe' . $user_time . '@gmail.com');
 $I->fillField('#password','password');
 $I->fillField('#password_confirmation','password');
 $I->click('.form-signin button');
-$I->see('successful');
 
 $I->click('.user-menu-desktop');
 $I->click('#user_logout_desktop');

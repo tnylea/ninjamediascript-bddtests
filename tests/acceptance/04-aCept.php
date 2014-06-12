@@ -9,7 +9,6 @@ $I->fillField('#email','bob' . time() . '@bobsburgers.com');
 $I->fillField('#password','password');
 $I->fillField('#password_confirmation','password');
 $I->click('.form-signin button');
-$I->see('successful');
 
 
 // Upload picture from file
@@ -41,10 +40,19 @@ $I->see('Burger Video');
 $I->click('.upload-btn-desktop');
 $I->seeElement('.icon-cloud-upload');
 $I->click('.vid-radio-btn');
-$I->fillField('#title','Sailor Moon Bobs Burgers');
-$I->fillField('#vid_url', 'http://vimeo.com/93950813');
+$I->fillField('#title','Skateboarding');
+$I->fillField('#vid_url', 'http://vimeo.com/42864902');
 $I->click('.submit-media');
-$I->see('Sailor Moon Bobs Burgers');
+$I->see('Skateboarding');
+
+// Upload Vine Video from URL
+$I->click('.upload-btn-desktop');
+$I->seeElement('.icon-cloud-upload');
+$I->click('.vid-radio-btn');
+$I->fillField('#title','New Kicks');
+$I->fillField('#vid_url', 'https://vine.co/v/MDve2ubvna5');
+$I->click('.submit-media');
+$I->see('New Kicks');
 
 NinjaHelperPage::afterAllTests($I);
 ?>

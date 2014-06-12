@@ -24,7 +24,7 @@ modules:
       Selenium2:
         url: 'http://ninja-media-script.com'
         browser: firefox
-        delay: 350
+        delay: 450
         capabilities:
              unexpectedAlertBehaviour: 'accept'
              nativeEvents: true

@@ -10,8 +10,6 @@ $I->fillField('#password','password');
 
 $I->click('.btn-signin');
 
-$I->see('success');
-
 $I->reloadPage();
 
 $I->click('.user-menu-desktop');
