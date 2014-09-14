@@ -17,7 +17,7 @@ modules:
         - WebHelper
     config:
         PhpBrowser:
-            url: 'http://ninja-media-script.com'
+            url: 'http://stage.ninja-media-script.devdojo.com'
 modules:
    enabled: [Selenium2]
    config:
